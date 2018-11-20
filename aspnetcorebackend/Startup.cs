@@ -15,6 +15,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using aspnetcorebackend.Helpers;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace aspnetcorebackend
 {
@@ -22,6 +24,8 @@ namespace aspnetcorebackend
     {
         public Startup(IConfiguration configuration)
         {
+            // Logger
+            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
             Configuration = configuration;
         }
 
@@ -103,8 +107,11 @@ namespace aspnetcorebackend
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {            
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        {
+            // Serilog
+            loggerFactory.AddSerilog();
+
             // specifying the Swagger JSON endpoint.
             app.UseSwagger();
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Own API V1"); });
