@@ -10,14 +10,25 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+
     <PackageReference Include="Serilog" Version="2.7.2-dev-01033" />
     <PackageReference Include="Serilog.AspNetCore" Version="2.1.2-dev-00028" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.2-dev-00779" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1-dev-00163" />
+    <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1-dev-00726" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.1-dev-00771" />
-    <!-- <PackageReference Include="NLog.Extensions.Logging" Version="1.3.0" /> -->
+    <PackageReference Include="Serilog.Sinks.File" Version="4.0.1-dev-00801" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.0.1-dev-00922" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1-dev-00163" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3-dev-00752" />
+    <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.1-dev-00723" />
+    <PackageReference Include="Serilog.Enrichers.Thread" Version="3.0.1-dev-00728" />
+    <PackageReference Include="Serilog.Enrichers.Demystify" Version="0.1.0-dev-00016" />
+    <PackageReference Include="Serilog.Exceptions" Version="4.1.0" />
+
   </ItemGroup>
 
 </Project>

@@ -25,7 +25,11 @@ namespace aspnetcorebackend
         public Startup(IConfiguration configuration)
         {
             // Logger
-            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom
+                .Configuration(configuration)
+                .CreateLogger();
+
             Configuration = configuration;
         }
 
@@ -69,26 +73,27 @@ namespace aspnetcorebackend
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1",
                     new Info
                     {
-                        Title = "MyApp",
+                        Title = "Office App",
                         Version = "v1",
-                        Description = "MyApp Web Service",
+                        Description = "Office App's REST API",
                         TermsOfService = "none",
                         Contact = new Contact
                         {
                             Name = "Devlin Duldulao",
-                            Email = "devlin@gmail.com",
+                            Email = "webmasterdevlin@gmail.com",
                             Url = "https://devlinduldulao.pro"
                         },
                         License = new License
                         {
-                            Name = "Use under LICX",
-                            Url = "https://example.com/license"
+                            Name = "Use under MIT",
+                            Url = "https://devlinduldulao.pro/license"
                         }
                     });
                 c.AddSecurityDefinition("Bearer",
