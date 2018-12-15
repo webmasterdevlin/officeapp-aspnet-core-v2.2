@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\LRMC Training\officeapp-aspnetcore-v2.1" t="IncludeFlat">
-      <e p=".git\info\exclude" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.gitignore_global" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="aspnetcorebackend" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -26,6 +27,14 @@
         <e p="Identity" t="Include">
           <e p="LoginModel.cs" t="Include" />
         </e>
+        <e p="Logs" t="Include">
+          <e p="Development" t="Include">
+            <e p="log-20181212.json" t="Include" />
+            <e p="log-20181212.txt" t="Include" />
+            <e p="log-20181214.json" t="Include" />
+            <e p="log-20181214.txt" t="Include" />
+          </e>
+        </e>
         <e p="Models" t="Include">
           <e p="ApplicationDbContext.cs" t="Include" />
           <e p="Dtos" t="Include">
@@ -39,7 +48,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.1" t="Include">
+            <e p="netcoreapp2.2" t="Include">
               <e p="aspnetcorebackend.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -58,10 +67,7 @@
       <e p="aspnetcorebackend.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Webmaster\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\Webmaster\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Webmaster\.Rider2018.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Webmaster\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Webmaster\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_aspnetcorebackend.-1784140873.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_aspnetcorebackend.-257045138.00" t="ExcludeRecursive" />
   </component>
 </project>
