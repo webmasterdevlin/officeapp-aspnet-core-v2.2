@@ -24,7 +24,7 @@ namespace aspnetcorebackend.Repositories
             if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password)) return null;
 
             var userEntity = _context.Users.SingleOrDefault(c =>
-                (c.Username == model.UserName || c.Email == model.Email) && c.Password == model.Password);
+                (c.Email == model.Email) && c.Password == model.Password);
 
             // check if username exists
             if (userEntity == null) return null;
@@ -51,8 +51,8 @@ namespace aspnetcorebackend.Repositories
             if (string.IsNullOrWhiteSpace(password))
                 throw new AppException("Password is required");
 
-            if (_context.Users.Any(x => x.Username == user.Username))
-                throw new AppException("Username \"" + user.Username + "\" is already taken");
+            if (_context.Users.Any(x => x.Email == user.Email))
+                throw new AppException("Username \"" + user.Email + "\" is already taken");
 
             CreatePasswordHash(password, out byte[] passwordHash, out byte[] passwordSalt);
 
@@ -72,10 +72,10 @@ namespace aspnetcorebackend.Repositories
             if (userEntity == null)
                 throw new AppException("User not found");
 
-            if (user.Username != userEntity.Username)
+            if (user.Email != userEntity.Email)
             {
                 // username has changed so check if the new username is already taken
-                if (_context.Users.Any(u => u.Username == user.Username)) throw new AppException("Username " + user.Username + " is already taken");
+                if (_context.Users.Any(u => u.Email == user.Email)) throw new AppException("Username " + user.Email + " is already taken");
             }
 
             // update User properties here
@@ -122,11 +122,11 @@ namespace aspnetcorebackend.Repositories
         private static bool VerifyPasswordHash(string password, byte[] storedHash, byte[] storedSalt)
         {
             if (password == null) throw new ArgumentNullException(nameof(password));
-            
+
             if (string.IsNullOrWhiteSpace(password)) throw new ArgumentException("Value cannot be empty or whitespace only string.", nameof(password));
-            
+
             if (storedHash.Length != 64) throw new ArgumentException("Invalid length of password hash (64 bytes expected).", nameof(storedHash));
-            
+
             if (storedSalt.Length != 128) throw new ArgumentException("Invalid length of password salt (128 bytes expected).", nameof(storedSalt));
 
             using (var hmac = new System.Security.Cryptography.HMACSHA512(storedSalt))

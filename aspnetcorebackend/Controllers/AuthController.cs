@@ -17,7 +17,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace aspnetcorebackend.Controllers
 {
-    [Route("api/auth")]
+    [Route("authentication")]
     public class AuthController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -33,7 +33,6 @@ namespace aspnetcorebackend.Controllers
 
         // GET api/values
         [HttpPost]
-        [Route("login")]
         public IActionResult Login([FromBody] LoginModel model)
         {
             if (model == null)

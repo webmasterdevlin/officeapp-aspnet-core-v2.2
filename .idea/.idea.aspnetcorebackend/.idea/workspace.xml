@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfe93f0-8010-4c84-a5c2-6f97a054febb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181120.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181120.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,61 +11,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1032353416">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-518374669">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="16" />
-          <entry key="csproj" value="3" />
-          <entry key="json" value="1" />
-          <entry key="sln" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="16" />
-          <entry key="Csproj" value="3" />
-          <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Solution File" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="421" />
-          <entry key="csproj" value="132" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="421" />
-          <entry key="Csproj" value="132" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,15 +39,9 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1782" />
-    <option name="y" value="49" />
+    <option name="x" value="1759" />
+    <option name="y" value="29" />
     <option name="width" value="1796" />
     <option name="height" value="981" />
   </component>
@@ -117,16 +50,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
             </path>
@@ -135,6 +67,8 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,11 +130,13 @@
       <workItem from="1544746813295" duration="1936000" />
       <workItem from="1544832127876" duration="4000" />
       <workItem from="1544848274026" duration="8701000" />
+      <workItem from="1557898907996" duration="971000" />
+      <workItem from="1558008549595" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12120000" />
+    <option name="totallyTimeSpent" value="13983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,17 +148,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1782" y="49" width="1796" height="981" extended-state="0" />
+    <frame x="1759" y="29" width="1796" height="981" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16020525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.163626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Build" weight="0.32978722" />
+      <window_info id="Azure Explorer" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -234,6 +169,10 @@
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.1713948" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Performance Profiler" order="17" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="18" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,9 +186,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -261,13 +197,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F17277-47ED-43CF-8A59-98D75EEBAE1B/9a/558a1d5d/SwaggerUiSettingsBase`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F17277-47ED-43CF-8A59-98D75EEBAE1B/9a/558a1d5d/SwaggerUiSettingsBase`1.cs" />
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend.sln">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -275,14 +205,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181214.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181214.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181214.txt" />
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-20181214.json" />
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">

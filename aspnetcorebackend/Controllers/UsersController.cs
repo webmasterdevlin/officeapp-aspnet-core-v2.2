@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using aspnetcorebackend.Contracts;
+using aspnetcorebackend.Helpers;
 using aspnetcorebackend.Models.Dtos;
+using aspnetcorebackend.Models.Entities;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,8 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace aspnetcorebackend.Controllers
 {
     [Produces("application/json")]
-    [Route("api/users")]
-    [Authorize]
+    [Route("users")]
     public class UsersController : Controller
     {
         private readonly IUserRepository _repo;
@@ -21,12 +23,23 @@ namespace aspnetcorebackend.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
+        [HttpPost]
+        public async Task<IActionResult> Register([FromBody]UserDto userDto)
         {
-            var users = _repo.GetAll();
-            var usersToReturn = _mapper.Map<IEnumerable<UserDto>>(users);
-            return Ok(usersToReturn);
+            // map dto to entity
+            var user = _mapper.Map<User>(userDto);
+
+            try
+            {
+                // save 
+                await _repo.CreateAsync(user, userDto.Password);
+                return Ok();
+            }
+            catch (AppException ex)
+            {
+                // return error message if there was an exception
+                return BadRequest(new { message = ex.Message });
+            }
         }
     }
 }

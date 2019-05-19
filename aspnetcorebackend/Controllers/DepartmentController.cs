@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 namespace aspnetcorebackend.Controllers
 {
     [Produces("application/json")]
-    [Route("api/departments")]
+    [Route("departments")]
     [Authorize]
     public class DepartmentController : Controller
     {
@@ -49,12 +49,12 @@ namespace aspnetcorebackend.Controllers
             var jsonString = JsonConvert.SerializeObject(obj);
 
             var department = JsonConvert.DeserializeObject<Department>(jsonString);
-            
+
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
-            
+
             await _repo.CreateAsync(department);
             return Ok();
         }
@@ -80,15 +80,15 @@ namespace aspnetcorebackend.Controllers
 
                 throw;
             }
-            
+
             return NoContent();
         }
 
         [HttpDelete("{id}")] // DELETE: api/departments/1
         public async Task<IActionResult> DeleteDepartment([FromRoute] int id)
         {
-           await _repo.DeleteAsync(id);
-           return Ok();
+            await _repo.DeleteAsync(id);
+            return Ok();
         }
     }
 }
