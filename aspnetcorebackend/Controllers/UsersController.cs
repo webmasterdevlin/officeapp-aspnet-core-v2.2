@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using aspnetcorebackend.Contracts;
 using aspnetcorebackend.Helpers;
 using aspnetcorebackend.Models.Dtos;
 using aspnetcorebackend.Models.Entities;
 using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace aspnetcorebackend.Controllers

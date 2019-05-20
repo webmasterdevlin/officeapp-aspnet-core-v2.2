@@ -10,6 +10,10 @@ using aspnetcorebackend.Identity;
 using aspnetcorebackend.Models;
 using aspnetcorebackend.Models.Entities;
 using aspnetcorebackend.Repositories;
+using JWT;
+using JWT.Algorithms;
+using JWT.Builder;
+using JWT.Serializers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -36,36 +40,24 @@ namespace aspnetcorebackend.Controllers
         public IActionResult Login([FromBody] LoginModel model)
         {
             if (model == null)
-            {
                 return BadRequest("Invalid client request");
-            }
 
             User user = _repo.Authenticate(model);
             if (user == null)
-            {
                 return Unauthorized();
-            }
+            
 
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.Secret));
-
-            var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
-
-            var tokenOptions = new JwtSecurityToken(
-                issuer: "http://localhost:5000", // This parameter is a simple string representing the name of the web server that issues the token
-                audience: "http://localhost:5000", // This parameter is a string value representing valid recipients
-                claims: new
-                    List<Claim> // This is list of user roles, for example, the user can be an admin, manager or author 
-                    {
-                        new Claim("", ""), // TODO: Add claims
-                    },
-                expires: DateTime.Now
-                    .AddDays(7), // DateTime object that represents the date and time after which the token expires
-                signingCredentials: signinCredentials
-            );
-
-            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-
-            return Ok(new { Token = tokenString }); // Just an object with token to be returned
+            var token = new JwtBuilder()
+                .WithAlgorithm(new HMACSHA256Algorithm())
+                .WithSecret(_appSettings.Secret)
+                .Issuer("http://localhost:5000")
+                .Audience("http://localhost:5000")
+                .IssuedAt(DateTime.UtcNow)
+                .AddClaim("exp", DateTimeOffset.UtcNow.AddDays(7).ToUnixTimeSeconds())
+                .AddClaim("Role", "admin")
+                .Build();
+            
+            return Ok(new { Token = token });
         }
     }
 }

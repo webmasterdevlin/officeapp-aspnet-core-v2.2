@@ -14,13 +14,13 @@
         <e p="Controllers" t="Include">
           <e p="AuthController.cs" t="Include" />
           <e p="DepartmentController.cs" t="Include" />
-          <e p="RegisterController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
           <e p="AppException.cs" t="Include" />
           <e p="AppSettings.cs" t="Include" />
           <e p="AutoMapperProfiles.cs" t="Include" />
+          <e p="OldJwtGenerator.cs" t="Include" />
         </e>
         <e p="Identity" t="Include">
           <e p="LoginModel.cs" t="Include" />
@@ -29,6 +29,12 @@
           <e p="Development" t="Include">
             <e p="log-20190515.json" t="Include" />
             <e p="log-20190515.txt" t="Include" />
+            <e p="log-20190516.json" t="Include" />
+            <e p="log-20190516.txt" t="Include" />
+            <e p="log-20190519.json" t="Include" />
+            <e p="log-20190519.txt" t="Include" />
+            <e p="log-20190520.json" t="Include" />
+            <e p="log-20190520.txt" t="Include" />
           </e>
         </e>
         <e p="Models" t="Include">

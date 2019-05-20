@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace aspnetcorebackend.Models.Entities
 {
     public class Department

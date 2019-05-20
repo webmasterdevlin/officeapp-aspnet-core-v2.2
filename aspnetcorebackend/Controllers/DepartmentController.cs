@@ -27,7 +27,7 @@ namespace aspnetcorebackend.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet] // GET: api/departments
+        [HttpGet] // GET: /departments
         public IActionResult GetAllDepartments()
         {
             var departments = _repo.GetAll();
@@ -35,7 +35,7 @@ namespace aspnetcorebackend.Controllers
             return Ok(departmentsToReturn);
         }
 
-        [HttpGet("{id}")] // GET: api/departments/1
+        [HttpGet("{id}")] // GET: /departments/1
         public IActionResult GetDepartment([FromRoute] int id)
         {
             var department = _repo.GetById(id);
@@ -43,48 +43,44 @@ namespace aspnetcorebackend.Controllers
             return Ok(departmentToReturn);
         }
 
-        [HttpPost] // POST: api/departments
-        public async Task<IActionResult> CreateDepartment([FromBody] Object obj)
+        [HttpPost] // POST: /departments
+        public async Task<IActionResult> CreateDepartment([FromBody] Department obj)
         {
-            var jsonString = JsonConvert.SerializeObject(obj);
+            //var jsonString = JsonConvert.SerializeObject(obj);
 
-            var department = JsonConvert.DeserializeObject<Department>(jsonString);
+            //var department = JsonConvert.DeserializeObject<Department>(jsonString);
 
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            await _repo.CreateAsync(department);
+            await _repo.CreateAsync(obj);
             return Ok();
         }
 
-        [HttpPut("{id}")] // PUT: api/departments/1
+        [HttpPut("{id}")] // PUT: /departments/1
         public async Task<IActionResult> UpdateDepartment([FromRoute] int id, [FromBody] Department department)
         {
-            if (id != department.Id)
-            {
+            if (id != department.Id) 
                 return BadRequest();
-            }
-
+            
             try
             {
                 await _repo.UpdateAsync(department);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_repo.Exists(id))
-                {
+                if (!_repo.Exists(id)) 
                     return NotFound();
-                }
-
+                
                 throw;
             }
 
             return NoContent();
         }
 
-        [HttpDelete("{id}")] // DELETE: api/departments/1
+        [HttpDelete("{id}")] // DELETE: /departments/1
         public async Task<IActionResult> DeleteDepartment([FromRoute] int id)
         {
             await _repo.DeleteAsync(id);
