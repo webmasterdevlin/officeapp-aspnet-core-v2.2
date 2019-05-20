@@ -22,15 +22,15 @@ namespace aspnetcorebackend.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register([FromBody]UserDto userDto)
+        public async Task<IActionResult> Register([FromBody]User user)
         {
-            // map dto to entity
-            var user = _mapper.Map<User>(userDto);
+            if (!ModelState.IsValid) 
+                return BadRequest();
 
             try
             {
                 // save 
-                await _repo.CreateAsync(user, userDto.Password);
+                await _repo.CreateAsync(user, user.Password);
                 return Ok();
             }
             catch (AppException ex)

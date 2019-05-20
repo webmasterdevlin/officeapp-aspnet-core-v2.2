@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfe93f0-8010-4c84-a5c2-6f97a054febb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aspnetcorebackend/Logs/Development/log-datehere.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcorebackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Contracts/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Contracts/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Identity/LoginModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Identity/LoginModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/DepartmentDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/DepartmentDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/UserDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Models/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Models/ApplicationDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspnetcorebackend/OfficeAppDb.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/OfficeAppDb.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,32 +62,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1558320684054" expanded="true" signature="58:409" ph="{...}" />
-                <marker date="1558320684054" expanded="true" signature="82:407" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/ApplicationDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <marker date="1558266175470" expanded="false" signature="6:77" ph="..." />
-                <marker date="1558266175470" expanded="true" signature="113:1430" ph="{...}" />
-                <marker date="1558266175470" expanded="true" signature="165:1428" ph="{...}" />
-                <marker date="1558266175470" expanded="true" signature="378:398" ph="{...}" />
-                <marker date="1558266175470" expanded="true" signature="474:1422" ph="{...}" />
-                <marker date="1558266175470" expanded="true" signature="551:1116" ph="{...}" />
-                <marker date="1558266175470" expanded="true" signature="1180:1361" ph="{...}" />
+                <marker date="1558328340612" expanded="false" signature="6:77" ph="..." />
+                <marker date="1558328340612" expanded="true" signature="113:406" ph="{...}" />
+                <marker date="1558328340612" expanded="true" signature="165:404" ph="{...}" />
+                <marker date="1558328340612" expanded="true" signature="378:398" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,25 +80,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="573">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
-                <marker date="1558320627949" expanded="true" signature="6:58" ph="..." />
-                <marker date="1558320627949" expanded="true" signature="103:355" ph="{...}" />
-                <marker date="1558320627949" expanded="true" signature="133:353" ph="{...}" />
+                <marker date="1558328406341" expanded="true" signature="6:110" ph="..." />
+                <marker date="1558328406341" expanded="true" signature="155:671" ph="{...}" />
+                <marker date="1558328406341" expanded="true" signature="186:669" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/DepartmentDto.cs">
+        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="426">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <marker date="1558322489813" expanded="true" signature="54:309" ph="{...}" />
-                <marker date="1558322489813" expanded="true" signature="87:307" ph="{...}" />
+                <marker date="1558328351041" expanded="true" signature="6:110" ph="..." />
+                <marker date="1558328351041" expanded="true" signature="155:719" ph="{...}" />
+                <marker date="1558328351041" expanded="true" signature="179:717" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding>
+                <marker date="1558320843634" expanded="false" signature="6:295" ph="..." />
+                <marker date="1558320843634" expanded="true" signature="337:5179" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="389:5177" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="512:564" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="616:1184" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="1227:1282" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="1320:1384" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="1457:2112" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="2192:3274" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="2405:2659" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="2907:3144" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="3322:3516" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="3666:4181" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="4020:4171" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="4284:5169" ph="{...}" />
+                <marker date="1558320843634" expanded="true" signature="4929:5133" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <marker date="1558327014914" expanded="false" signature="6:225" ph="..." />
+                <marker date="1558327014914" expanded="true" signature="266:1162" ph="{...}" />
+                <marker date="1558327014914" expanded="true" signature="370:1160" ph="{...}" />
+                <marker date="1558327014914" expanded="true" signature="536:612" ph="{...}" />
+                <marker date="1558327014914" expanded="true" signature="703:1154" ph="{...}" />
+                <marker date="1558327014914" expanded="true" signature="805:949" ph="{...}" />
+                <marker date="1558327014914" expanded="true" signature="985:1144" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/UserDto.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="169">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding>
                 <marker date="1558322494493" expanded="true" signature="54:371" ph="{...}" />
                 <marker date="1558322494493" expanded="true" signature="81:369" ph="{...}" />
@@ -145,63 +164,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-              <folding>
-                <marker date="1558324151428" expanded="true" signature="6:299" ph="..." />
-                <marker date="1558324151428" expanded="true" signature="341:1591" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="405:1589" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="534:586" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="623:705" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="754:815" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="859:929" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="1003:1195" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="1269:1408" ph="{...}" />
-                <marker date="1558324151428" expanded="true" signature="1456:1583" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <marker date="1558324141269" expanded="true" signature="6:118" ph="..." />
-                <marker date="1558324141269" expanded="true" signature="157:482" ph="{...}" />
-                <marker date="1558324141269" expanded="true" signature="202:480" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="31" />
-              <folding>
-                <marker date="1558324939239" expanded="false" signature="6:225" ph="..." />
-                <marker date="1558324939239" expanded="true" signature="266:1180" ph="{...}" />
-                <marker date="1558324939239" expanded="true" signature="370:1178" ph="{...}" />
-                <marker date="1558324939239" expanded="true" signature="536:612" ph="{...}" />
-                <marker date="1558324939239" expanded="true" signature="709:1172" ph="{...}" />
-                <marker date="1558324939239" expanded="true" signature="820:967" ph="{...}" />
-                <marker date="1558324939239" expanded="true" signature="1003:1162" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="-74">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <marker date="1558324141275" expanded="false" signature="6:428" ph="..." />
                 <marker date="1558324141275" expanded="true" signature="469:2921" ph="{...}" />
@@ -222,14 +188,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Contracts/IUserRepository.cs">
+        <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="-1290">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <marker date="1558320705819" expanded="true" signature="6:152" ph="..." />
-                <marker date="1558320705819" expanded="true" signature="191:518" ph="{...}" />
-                <marker date="1558320705819" expanded="true" signature="230:516" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="6:878" ph="..." />
+                <marker date="1558325166980" expanded="true" signature="908:5879" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="935:5877" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="991:1227" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="1452:2840" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="2002:2509" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="2090:2490" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="3060:5871" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="3249:4708" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="3571:3843" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="3938:4693" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="4273:4451" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="4536:4674" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="4910:4975" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="5202:5832" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="5288:5814" ph="{...}" />
+                <marker date="1558325166980" expanded="true" signature="5388:5635" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -270,7 +250,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/aspnetcorebackend/Controllers/RegisterController.cs" />
-        <option value="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Helpers/JwtGenerator.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Helpers/NewJwtGenerator.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Helpers/OldJwtGenerator.cs" />
@@ -280,9 +259,6 @@
         <option value="$PROJECT_DIR$/aspnetcorebackend/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Program.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json" />
-        <option value="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" />
-        <option value="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs" />
-        <option value="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Contracts/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/DepartmentDto.cs" />
@@ -290,7 +266,12 @@
         <option value="$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs" />
+        <option value="$PROJECT_DIR$/aspnetcorebackend/Startup.cs" />
+        <option value="$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj" />
         <option value="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/aspnetcorebackend/Models/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs" />
+        <option value="$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs" />
       </list>
     </option>
   </component>
@@ -304,9 +285,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1681" />
+    <option name="x" value="1680" />
     <option name="y" value="23" />
-    <option name="width" value="1408" />
+    <option name="width" value="1364" />
     <option name="height" value="984" />
   </component>
   <component name="ProjectView">
@@ -326,12 +307,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Contracts" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -364,21 +339,6 @@
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
               <item name="aspnetcorebackend" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="57cb7ac4-cf13-4de0-85ed-270fad958806" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -452,7 +412,7 @@
       <workItem from="1557898907996" duration="971000" />
       <workItem from="1558008549595" duration="892000" />
       <workItem from="1558307674055" duration="65000" />
-      <workItem from="1558308268902" duration="12271000" />
+      <workItem from="1558308268902" duration="15708000" />
     </task>
     <task id="LOCAL-00001" summary="added Jwt.Net">
       <created>1558311905312</created>
@@ -461,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558311905312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="converted in-memory ef core to sqlite ef core">
+      <created>1558325200343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558325200343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26319000" />
+    <option name="totallyTimeSpent" value="29756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,19 +444,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1710" y="23" width="1394" height="981" extended-state="0" />
+    <frame x="1680" y="23" width="1364" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21671598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
       <window_info anchor="bottom" id="Database Console" weight="0.32978722" />
       <window_info anchor="bottom" id="SQL Generator" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286219" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995272" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39811543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -501,7 +468,7 @@
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.1713948" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32978722" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.3286219" />
       <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="bottom" id="Performance Profiler" order="17" />
       <window_info anchor="bottom" id="Azure Activity Log" order="18" />
@@ -509,7 +476,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.31286982" />
+      <window_info anchor="right" id="Database" order="4" weight="0.31286982" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
@@ -520,7 +487,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Jwt.Net" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Jwt.Net" />
+    <MESSAGE value="converted in-memory ef core to sqlite ef core" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted in-memory ef core to sqlite ef core" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,45 +497,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs</url>
-          <line>36</line>
-          <properties documentPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" initialLine="37">
-            <startOffsets>
-              <option value="1016" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1017" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" initialLine="34">
-            <startOffsets>
-              <option value="941" />
-            </startOffsets>
-            <endOffsets>
-              <option value="953" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs" initialLine="26">
-            <startOffsets>
-              <option value="718" />
-            </startOffsets>
-            <endOffsets>
-              <option value="719" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -595,13 +524,6 @@
             <marker date="1544857697443" expanded="true" signature="810:957" ph="{...}" />
             <marker date="1544857697443" expanded="true" signature="993:1152" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -709,70 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1558314920487" expanded="false" signature="6:110" ph="..." />
-            <marker date="1558314920487" expanded="true" signature="201:549" ph="{...}" />
-            <marker date="1558314920487" expanded="true" signature="228:547" ph="{...}" />
-            <marker date="1558314920487" expanded="true" signature="278:346" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2682">
-          <caret line="142" column="1" lean-forward="true" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
-          <folding>
-            <marker date="1558317202004" expanded="true" signature="6:919" ph="..." />
-            <marker date="1558317202004" expanded="true" signature="949:5920" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="976:5918" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="1032:1268" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="1493:2881" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="2043:2550" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="2131:2531" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="3101:5912" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="3290:4749" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="3612:3884" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="3979:4734" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="4314:4492" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="4577:4715" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="4951:5016" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="5243:5873" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="5329:5855" ph="{...}" />
-            <marker date="1558317202004" expanded="true" signature="5429:5676" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="37" />
-          <folding>
-            <marker date="1558320843634" expanded="false" signature="6:295" ph="..." />
-            <marker date="1558320843634" expanded="true" signature="337:5179" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="389:5177" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="512:564" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="616:1184" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="1227:1282" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="1320:1384" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="1457:2112" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="2192:3274" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="2405:2659" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="2907:3144" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="3322:3516" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="3666:4181" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="4020:4171" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="4284:5169" ph="{...}" />
-            <marker date="1558320843634" expanded="true" signature="4929:5133" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -837,40 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/UserDto.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <marker date="1558322494493" expanded="true" signature="54:371" ph="{...}" />
-            <marker date="1558322494493" expanded="true" signature="81:369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1558320684054" expanded="true" signature="58:409" ph="{...}" />
-            <marker date="1558320684054" expanded="true" signature="82:407" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1558320627949" expanded="true" signature="6:58" ph="..." />
-            <marker date="1558320627949" expanded="true" signature="103:355" ph="{...}" />
-            <marker date="1558320627949" expanded="true" signature="133:353" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Contracts/IUserRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -894,10 +718,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1558324141269" expanded="true" signature="6:118" ph="..." />
+            <marker date="1558324141269" expanded="true" signature="157:482" ph="{...}" />
+            <marker date="1558324141269" expanded="true" signature="202:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <marker date="1558324151428" expanded="true" signature="6:299" ph="..." />
+            <marker date="1558324151428" expanded="true" signature="341:1591" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="405:1589" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="534:586" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="623:705" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="754:815" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="859:929" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="1003:1195" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="1269:1408" ph="{...}" />
+            <marker date="1558324151428" expanded="true" signature="1456:1583" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/aspnetcorebackend.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1290">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <marker date="1558325166980" expanded="true" signature="6:878" ph="..." />
+            <marker date="1558325166980" expanded="true" signature="908:5879" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="935:5877" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="991:1227" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="1452:2840" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="2002:2509" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="2090:2490" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="3060:5871" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="3249:4708" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="3571:3843" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="3938:4693" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="4273:4451" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="4536:4674" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="4910:4975" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="5202:5832" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="5288:5814" ph="{...}" />
+            <marker date="1558325166980" expanded="true" signature="5388:5635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <marker date="1558320843634" expanded="false" signature="6:295" ph="..." />
+            <marker date="1558320843634" expanded="true" signature="337:5179" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="389:5177" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="512:564" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="616:1184" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="1227:1282" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="1320:1384" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="1457:2112" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="2192:3274" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="2405:2659" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="2907:3144" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="3322:3516" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="3666:4181" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="4020:4171" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="4284:5169" ph="{...}" />
+            <marker date="1558320843634" expanded="true" signature="4929:5133" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Dtos/UserDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <marker date="1558322494493" expanded="true" signature="54:371" ph="{...}" />
+            <marker date="1558322494493" expanded="true" signature="81:369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/DepartmentController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="-74">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <marker date="1558324141275" expanded="false" signature="6:428" ph="..." />
             <marker date="1558324141275" expanded="true" signature="469:2921" ph="{...}" />
@@ -916,65 +840,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Contracts/IDepartmentRepository.cs">
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <marker date="1558324141269" expanded="true" signature="6:118" ph="..." />
-            <marker date="1558324141269" expanded="true" signature="157:482" ph="{...}" />
-            <marker date="1558324141269" expanded="true" signature="202:480" ph="{...}" />
+            <marker date="1558327014914" expanded="false" signature="6:225" ph="..." />
+            <marker date="1558327014914" expanded="true" signature="266:1162" ph="{...}" />
+            <marker date="1558327014914" expanded="true" signature="370:1160" ph="{...}" />
+            <marker date="1558327014914" expanded="true" signature="536:612" ph="{...}" />
+            <marker date="1558327014914" expanded="true" signature="703:1154" ph="{...}" />
+            <marker date="1558327014914" expanded="true" signature="805:949" ph="{...}" />
+            <marker date="1558327014914" expanded="true" signature="985:1144" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Repositories/DepartmentRepository.cs">
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        <state relative-caret-position="78">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
-            <marker date="1558324151428" expanded="true" signature="6:299" ph="..." />
-            <marker date="1558324151428" expanded="true" signature="341:1591" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="405:1589" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="534:586" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="623:705" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="754:815" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="859:929" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="1003:1195" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="1269:1408" ph="{...}" />
-            <marker date="1558324151428" expanded="true" signature="1456:1583" ph="{...}" />
+            <marker date="1558314920487" expanded="false" signature="6:110" ph="..." />
+            <marker date="1558314920487" expanded="true" signature="201:549" ph="{...}" />
+            <marker date="1558314920487" expanded="true" signature="228:547" ph="{...}" />
+            <marker date="1558314920487" expanded="true" signature="278:346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/Department.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <marker date="1558328406341" expanded="true" signature="6:110" ph="..." />
+            <marker date="1558328406341" expanded="true" signature="155:671" ph="{...}" />
+            <marker date="1558328406341" expanded="true" signature="186:669" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/Entities/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1558328351041" expanded="true" signature="6:110" ph="..." />
+            <marker date="1558328351041" expanded="true" signature="155:719" ph="{...}" />
+            <marker date="1558328351041" expanded="true" signature="179:717" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Models/ApplicationDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="186">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <marker date="1558266175470" expanded="false" signature="6:77" ph="..." />
-            <marker date="1558266175470" expanded="true" signature="113:1430" ph="{...}" />
-            <marker date="1558266175470" expanded="true" signature="165:1428" ph="{...}" />
-            <marker date="1558266175470" expanded="true" signature="378:398" ph="{...}" />
-            <marker date="1558266175470" expanded="true" signature="474:1422" ph="{...}" />
-            <marker date="1558266175470" expanded="true" signature="551:1116" ph="{...}" />
-            <marker date="1558266175470" expanded="true" signature="1180:1361" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspnetcorebackend/Controllers/UsersController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <marker date="1558324939239" expanded="false" signature="6:225" ph="..." />
-            <marker date="1558324939239" expanded="true" signature="266:1180" ph="{...}" />
-            <marker date="1558324939239" expanded="true" signature="370:1178" ph="{...}" />
-            <marker date="1558324939239" expanded="true" signature="536:612" ph="{...}" />
-            <marker date="1558324939239" expanded="true" signature="709:1172" ph="{...}" />
-            <marker date="1558324939239" expanded="true" signature="820:967" ph="{...}" />
-            <marker date="1558324939239" expanded="true" signature="1003:1162" ph="{...}" />
+            <marker date="1558328340612" expanded="false" signature="6:77" ph="..." />
+            <marker date="1558328340612" expanded="true" signature="113:406" ph="{...}" />
+            <marker date="1558328340612" expanded="true" signature="165:404" ph="{...}" />
+            <marker date="1558328340612" expanded="true" signature="378:398" ph="{...}" />
           </folding>
         </state>
       </provider>
