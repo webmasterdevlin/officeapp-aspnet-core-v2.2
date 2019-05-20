@@ -1,0 +1,190 @@
+2019-05-20 08:33:04.730 +08:00 [DBG] Hosting starting
+2019-05-20 08:33:04.921 +08:00 [INF] User profile is available. Using '/Users/devlinduldulao/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2019-05-20 08:33:04.931 +08:00 [DBG] Reading data from file '/Users/devlinduldulao/.aspnet/DataProtection-Keys/key-51538c7c-0c08-493c-8267-837dbd8d1dc5.xml'.
+2019-05-20 08:33:04.962 +08:00 [DBG] Reading data from file '/Users/devlinduldulao/.aspnet/DataProtection-Keys/key-31fd403d-43a9-43e9-9681-b4ac57fa7a73.xml'.
+2019-05-20 08:33:04.967 +08:00 [DBG] Found key "51538c7c-0c08-493c-8267-837dbd8d1dc5".
+2019-05-20 08:33:04.977 +08:00 [DBG] Found key "31fd403d-43a9-43e9-9681-b4ac57fa7a73".
+2019-05-20 08:33:04.986 +08:00 [DBG] Considering key "51538c7c-0c08-493c-8267-837dbd8d1dc5" with expiration date "2019-08-14T12:21:01.3049690+00:00" as default key.
+2019-05-20 08:33:05.029 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-05-20 08:33:05.033 +08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2019-05-20 08:33:05.034 +08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2019-05-20 08:33:05.038 +08:00 [DBG] Using key "51538c7c-0c08-493c-8267-837dbd8d1dc5" as the default key.
+2019-05-20 08:33:05.040 +08:00 [DBG] Key ring with default key "51538c7c-0c08-493c-8267-837dbd8d1dc5" was loaded during application startup.
+2019-05-20 08:33:05.317 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-20 08:33:05.537 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TestData 
+2019-05-20 08:33:05.539 +08:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2019-05-20 08:33:05.540 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2019-05-20 08:33:05.541 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2019-05-20 08:33:05.545 +08:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 0 entities written to the database.
+2019-05-20 08:33:05.584 +08:00 [DBG] Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.628 +08:00 [DBG] Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.629 +08:00 [DBG] Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-05-20 08:33:05.630 +08:00 [DBG] Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.645 +08:00 [DBG] Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-05-20 08:33:05.645 +08:00 [DBG] Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-05-20 08:33:05.645 +08:00 [DBG] Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-05-20 08:33:05.652 +08:00 [DBG] Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.652 +08:00 [DBG] Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.653 +08:00 [DBG] Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.656 +08:00 [DBG] Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-05-20 08:33:05.678 +08:00 [DBG] Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.678 +08:00 [DBG] Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-05-20 08:33:05.829 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-05-20 08:33:06.027 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2019-05-20 08:33:06.048 +08:00 [DBG] Hosting started
+2019-05-20 08:33:06.048 +08:00 [DBG] Loaded hosting startup assembly aspnetcorebackend
+2019-05-20 08:33:08.196 +08:00 [DBG] Connection id "0HLMSNATISM6P" started.
+2019-05-20 08:33:08.233 +08:00 [DBG] Connection id "0HLMSNATISM6P" received FIN.
+2019-05-20 08:33:08.237 +08:00 [DBG] Connection id "0HLMSNATISM6P" sending FIN because: "The client closed the connection."
+2019-05-20 08:33:08.244 +08:00 [DBG] Connection id "0HLMSNATISM6Q" started.
+2019-05-20 08:33:08.249 +08:00 [DBG] Connection id "0HLMSNATISM6P" disconnecting.
+2019-05-20 08:33:08.314 +08:00 [DBG] Connection id "0HLMSNATISM6P" stopped.
+2019-05-20 08:33:08.330 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/users application/json 48
+2019-05-20 08:33:08.337 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2019-05-20 08:33:08.366 +08:00 [DBG] POST requests are not supported
+2019-05-20 08:33:08.448 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-20 08:33:08.450 +08:00 [WRN] Failed to determine the https port for redirect.
+2019-05-20 08:33:08.490 +08:00 [DBG] 1 candidate(s) found for the request path '/users'
+2019-05-20 08:33:08.491 +08:00 [DBG] Endpoint 'aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend)' with route pattern 'users' is valid for the request path '/users'
+2019-05-20 08:33:08.493 +08:00 [DBG] Request matched endpoint 'aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend)'
+2019-05-20 08:33:08.494 +08:00 [INF] Executing endpoint 'aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend)'
+2019-05-20 08:33:08.521 +08:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing action aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend)
+2019-05-20 08:33:08.522 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2019-05-20 08:33:08.523 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2019-05-20 08:33:08.524 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2019-05-20 08:33:08.524 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2019-05-20 08:33:08.524 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2019-05-20 08:33:08.722 +08:00 [DBG] Attempting to bind parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto' ...
+2019-05-20 08:33:08.725 +08:00 [DBG] Attempting to bind parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto' using the name '' in request data ...
+2019-05-20 08:33:08.725 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter' for content type 'application/json'.
+2019-05-20 08:33:08.726 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'.
+2019-05-20 08:33:08.731 +08:00 [DBG] Connection id "0HLMSNATISM6Q", Request id "0HLMSNATISM6Q:00000001": started reading request body.
+2019-05-20 08:33:08.740 +08:00 [DBG] Connection id "0HLMSNATISM6Q", Request id "0HLMSNATISM6Q:00000001": done reading request body.
+2019-05-20 08:33:08.817 +08:00 [DBG] Done attempting to bind parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto'.
+2019-05-20 08:33:08.817 +08:00 [DBG] Done attempting to bind parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto'.
+2019-05-20 08:33:08.817 +08:00 [DBG] Attempting to validate the bound parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto' ...
+2019-05-20 08:33:08.821 +08:00 [DBG] Done attempting to validate the bound parameter 'userDto' of type 'aspnetcorebackend.Models.Dtos.UserDto'.
+2019-05-20 08:33:08.830 +08:00 [INF] Executing action method aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend) with arguments (["aspnetcorebackend.Models.Dtos.UserDto"]) - Validation state: "Valid"
+2019-05-20 08:33:08.849 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TestData 
+2019-05-20 08:33:08.884 +08:00 [DBG] Compiling query model: 
+'(from User x in DbSet<User>
+where [x].Email == __user_Email_0
+select [x]).Any()'
+2019-05-20 08:33:08.898 +08:00 [DBG] Optimized query model: 
+'(from User x in DbSet<User>
+where [x].Email == __user_Email_0
+select [x]).Any()'
+2019-05-20 08:33:08.923 +08:00 [DBG] (QueryContext queryContext) => IEnumerable<bool> _InterceptExceptions(
+|__ source: IEnumerable<bool> _ToSequence(() => bool Any(IEnumerable<ValueBuffer> _Where(
+|   |__ source: IEnumerable<ValueBuffer> ProjectionQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ entityType: EntityType: User), 
+|   |__ predicate: (ValueBuffer x) => string TryReadValue(x, 1, User.Email) == string GetParameterValue(
+|       |__ queryContext: queryContext, 
+|       |__ parameterName: "__user_Email_0")))), 
+|__ contextType: aspnetcorebackend.Models.ApplicationDbContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)
+2019-05-20 08:33:08.952 +08:00 [DBG] 'ApplicationDbContext' generated a value for the 'Id' property of new 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-20 08:33:08.984 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-20 08:33:08.985 +08:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2019-05-20 08:33:08.985 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2019-05-20 08:33:08.990 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2019-05-20 08:33:09.002 +08:00 [INF] Saved 1 entities to in-memory store.
+2019-05-20 08:33:09.006 +08:00 [DBG] An 'User' entity tracked by 'ApplicationDbContext' changed from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-20 08:33:09.006 +08:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2019-05-20 08:33:09.010 +08:00 [INF] Executed action method aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend), returned result Microsoft.AspNetCore.Mvc.OkResult in 177.3834ms.
+2019-05-20 08:33:09.016 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-05-20 08:33:09.020 +08:00 [INF] Executed action aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend) in 493.23220000000003ms
+2019-05-20 08:33:09.020 +08:00 [INF] Executed endpoint 'aspnetcorebackend.Controllers.UsersController.Register (aspnetcorebackend)'
+2019-05-20 08:33:09.023 +08:00 [DBG] Connection id "0HLMSNATISM6Q" completed keep alive response.
+2019-05-20 08:33:09.026 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2019-05-20 08:33:09.028 +08:00 [INF] Request finished in 698.9161ms 200 
+2019-05-20 08:33:10.514 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/authentication application/json 48
+2019-05-20 08:33:10.515 +08:00 [DBG] POST requests are not supported
+2019-05-20 08:33:10.515 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-20 08:33:10.518 +08:00 [DBG] 1 candidate(s) found for the request path '/authentication'
+2019-05-20 08:33:10.518 +08:00 [DBG] Endpoint 'aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend)' with route pattern 'authentication' is valid for the request path '/authentication'
+2019-05-20 08:33:10.518 +08:00 [DBG] Request matched endpoint 'aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend)'
+2019-05-20 08:33:10.519 +08:00 [INF] Executing endpoint 'aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend)'
+2019-05-20 08:33:10.521 +08:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing action aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend)
+2019-05-20 08:33:10.521 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2019-05-20 08:33:10.521 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2019-05-20 08:33:10.522 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2019-05-20 08:33:10.522 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2019-05-20 08:33:10.522 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2019-05-20 08:33:10.528 +08:00 [DBG] Attempting to bind parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel' ...
+2019-05-20 08:33:10.528 +08:00 [DBG] Attempting to bind parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel' using the name '' in request data ...
+2019-05-20 08:33:10.529 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter' for content type 'application/json'.
+2019-05-20 08:33:10.529 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'.
+2019-05-20 08:33:10.529 +08:00 [DBG] Connection id "0HLMSNATISM6Q", Request id "0HLMSNATISM6Q:00000002": started reading request body.
+2019-05-20 08:33:10.530 +08:00 [DBG] Connection id "0HLMSNATISM6Q", Request id "0HLMSNATISM6Q:00000002": done reading request body.
+2019-05-20 08:33:10.532 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel'.
+2019-05-20 08:33:10.532 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel'.
+2019-05-20 08:33:10.533 +08:00 [DBG] Attempting to validate the bound parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel' ...
+2019-05-20 08:33:10.534 +08:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'aspnetcorebackend.Identity.LoginModel'.
+2019-05-20 08:33:10.534 +08:00 [INF] Executing action method aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend) with arguments (["aspnetcorebackend.Identity.LoginModel"]) - Validation state: "Valid"
+2019-05-20 08:33:10.562 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TestData 
+2019-05-20 08:33:10.568 +08:00 [DBG] Compiling query model: 
+'(from User c in DbSet<User>
+where [c].Email == __model_Email_0 && [c].Password == __model_Password_1
+select [c]).SingleOrDefault()'
+2019-05-20 08:33:10.570 +08:00 [DBG] Optimized query model: 
+'(from User c in DbSet<User>
+where [c].Email == __model_Email_0 && [c].Password == __model_Password_1
+select [c]).SingleOrDefault()'
+2019-05-20 08:33:10.587 +08:00 [DBG] (QueryContext queryContext) => IEnumerable<User> _InterceptExceptions(
+|__ source: IEnumerable<User> _TrackEntities(
+|   |__ results: IEnumerable<User> _ToSequence(() => User SingleOrDefault(IEnumerable<User> _Where(
+|   |   |__ source: IEnumerable<User> EntityQuery(
+|   |   |   |__ queryContext: queryContext, 
+|   |   |   |__ entityType: EntityType: User, 
+|   |   |   |__ key: Key: User.Id PK, 
+|   |   |   |__ materializer: (IEntityType entityType | MaterializationContext materializationContext) => 
+|   |   |   |   {
+|   |   |   |       instance = new User()
+|   |   |   |       instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, User.Id)
+|   |   |   |       instance.<Email>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, User.Email)
+|   |   |   |       instance.<FirstName>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, User.FirstName)
+|   |   |   |       instance.<LastName>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, User.LastName)
+|   |   |   |       instance.<Password>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, User.Password)
+|   |   |   |       instance.<PasswordHash>k__BackingField = byte[] TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, User.PasswordHash)
+|   |   |   |       instance.<PasswordSalt>k__BackingField = byte[] TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, User.PasswordSalt)
+|   |   |   |       return instance
+|   |   |   |   }, 
+|   |   |   |__ queryStateManager: True), 
+|   |   |__ predicate: (User c) => c.Email == string GetParameterValue(
+|   |       |__ queryContext: queryContext, 
+|   |       |__ parameterName: "__model_Email_0") && c.Password == string GetParameterValue(
+|   |       |__ queryContext: queryContext, 
+|   |       |__ parameterName: "__model_Password_1")))), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: List<EntityTrackingInfo> 
+|   |   { 
+|   |       EntityTrackingInfo, 
+|   |   }, 
+|   |__ entityAccessors: List<Func<User, object>> 
+|       { 
+|           Func<User, User>, 
+|       }), 
+|__ contextType: aspnetcorebackend.Models.ApplicationDbContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)
+2019-05-20 08:33:10.603 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-20 08:33:10.634 +08:00 [INF] Executed action method aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.7829ms.
+2019-05-20 08:33:10.636 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"]
+2019-05-20 08:33:10.639 +08:00 [DBG] No information found on request to perform content negotiation.
+2019-05-20 08:33:10.639 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2019-05-20 08:33:10.639 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2019-05-20 08:33:10.640 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+2019-05-20 08:33:10.640 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-05-20 08:33:10.650 +08:00 [INF] Executed action aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend) in 127.5492ms
+2019-05-20 08:33:10.650 +08:00 [INF] Executed endpoint 'aspnetcorebackend.Controllers.AuthController.Login (aspnetcorebackend)'
+2019-05-20 08:33:10.652 +08:00 [DBG] Connection id "0HLMSNATISM6Q" completed keep alive response.
+2019-05-20 08:33:10.652 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2019-05-20 08:33:10.652 +08:00 [INF] Request finished in 138.3227ms 200 application/json; charset=utf-8

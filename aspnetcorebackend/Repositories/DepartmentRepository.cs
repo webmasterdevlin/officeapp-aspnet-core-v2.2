@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace aspnetcorebackend.Repositories
             _context = context;
         }
 
-        public bool Exists(int id)
+        public bool Exists(Guid id)
         {
             return _context.Departments.Any(d => d.Id == id);
         }
@@ -28,13 +29,14 @@ namespace aspnetcorebackend.Repositories
             return _context.Departments;
         }
 
-        public Department GetById(int id)
+        public Department GetById(Guid id)
         {
             return _context.Departments.Find(id);
         }
 
         public async Task<Department> CreateAsync(Department department)
         {
+            department.Id = Guid.NewGuid();
             _context.Departments.Add(department);
             await _context.SaveChangesAsync();
             return department;
@@ -47,7 +49,7 @@ namespace aspnetcorebackend.Repositories
             return department;
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             _context.Remove(_context.Departments.Find(id));
             await _context.SaveChangesAsync();

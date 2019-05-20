@@ -10,10 +10,9 @@ namespace aspnetcorebackend {
             CreateWebHostBuilder (args).Build ().Run ();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder (string[] args) =>
-            WebHost.CreateDefaultBuilder (args)
-            .UseStartup<Startup> ()
-            .UseSerilog ()
-            .UseDefaultServiceProvider (opt => opt.ValidateScopes = false); // Needed when InMemory is in used
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .UseSerilog();
     }
 }

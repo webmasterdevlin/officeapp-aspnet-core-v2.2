@@ -35,6 +35,8 @@
             <e p="log-20190519.txt" t="Include" />
             <e p="log-20190520.json" t="Include" />
             <e p="log-20190520.txt" t="Include" />
+            <e p="log-datehere.json" t="Include" />
+            <e p="log-datehere.txt" t="Include" />
           </e>
         </e>
         <e p="Models" t="Include">
@@ -55,6 +57,7 @@
             </e>
           </e>
         </e>
+        <e p="OfficeAppDb.sqlite3" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />

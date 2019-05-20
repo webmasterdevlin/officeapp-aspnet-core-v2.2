@@ -40,7 +40,7 @@ namespace aspnetcorebackend.Repositories
             return _context.Users;
         }
 
-        public User GetById(int id)
+        public User GetById(Guid id)
         {
             return _context.Users.Find(id);
         }
@@ -58,7 +58,7 @@ namespace aspnetcorebackend.Repositories
 
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
-
+            user.Id = Guid.NewGuid();
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
@@ -96,7 +96,7 @@ namespace aspnetcorebackend.Repositories
             return user;
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             var user = _context.Users.Find(id);
             if (user == null) return;

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mime;
 using System.Reflection;
@@ -22,7 +21,6 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using NJsonSchema;
 using NSwag;
 using NSwag.AspNetCore;
 using NSwag.SwaggerGeneration.Processors.Security;
@@ -50,14 +48,8 @@ namespace aspnetcorebackend {
             services.AddCors ();
 
             var key = Encoding.ASCII.GetBytes (Configuration.GetSection ("AppSettings:Secret").Value);
-
-            // IN-MEMORY PROVIDER
-            // TODO: Comment out the line below and the GetRequiredService inside Configure() to swap with a real database in production
-            services.AddDbContext<ApplicationDbContext> (option => option.UseInMemoryDatabase ("TestData"));
-
-            // Real database SQL Server
-            // TODO: Uncomment the line below to switch on the real database
-            // services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("")));
+            
+            services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlite(Configuration.GetConnectionString("OfficeAppDb")));
 
             services.AddAuthentication (JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer (options => {
@@ -114,7 +106,7 @@ namespace aspnetcorebackend {
                     };
                     document.Info.License = new SwaggerLicense
                     {
-                        Name = "Use under LICX",
+                        Name = "Use under MIT",
                         Url = "https://devlinduldulao.pro/license"
                     };
                 };
@@ -126,10 +118,6 @@ namespace aspnetcorebackend {
 
             if (env.IsDevelopment ()) {
                 app.UseDeveloperExceptionPage ();
-                // In-Memory seeding of data
-                // TODO: Comment out the two lines below when switching to real database
-                var context = app.ApplicationServices.GetRequiredService<ApplicationDbContext> ();
-                TestData.AddTestData (context);
             } else {
                 app.UseExceptionHandler ("/Error");
                 app.UseHsts ();
@@ -150,11 +138,5 @@ namespace aspnetcorebackend {
                 });
             app.UseMvc ();
         }
-    }
-}
-
-public static class TestData {
-    public static void AddTestData (ApplicationDbContext context) {
-        context.SaveChanges ();
     }
 }

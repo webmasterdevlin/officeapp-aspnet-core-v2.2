@@ -39,6 +39,9 @@ namespace aspnetcorebackend.Controllers
         [HttpPost]
         public IActionResult Login([FromBody] LoginModel model)
         {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
             if (model == null)
                 return BadRequest("Invalid client request");
 
@@ -46,7 +49,6 @@ namespace aspnetcorebackend.Controllers
             if (user == null)
                 return Unauthorized();
             
-
             var token = new JwtBuilder()
                 .WithAlgorithm(new HMACSHA256Algorithm())
                 .WithSecret(_appSettings.Secret)
