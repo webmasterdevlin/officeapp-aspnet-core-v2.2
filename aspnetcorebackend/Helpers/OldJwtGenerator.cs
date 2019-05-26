@@ -26,18 +26,18 @@ namespace aspnetcorebackend.Helpers
                         new Claim("", ""), // TODO: Add claims
                     },
                 expires: DateTime.Now
-                          .AddDays(7), // date and time after which the token expires
-        signingCredentials: signinCredentials
+                    .AddDays(7), // date and time after which the token expires
+                signingCredentials: signinCredentials
             );
 
 
             var payload = new Dictionary<string, object>
-{
-    { "claim1", 0 },
-    { "claim2", "claim2-value" }
-};
+            {
+                {"claim1", 0},
+                {"claim2", "claim2-value"}
+            };
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-            var responseToken = new { Token = tokenString };
+            var responseToken = new {Token = tokenString};
 
             return responseToken;
         }

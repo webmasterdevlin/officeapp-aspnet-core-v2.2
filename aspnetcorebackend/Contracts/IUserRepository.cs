@@ -8,7 +8,7 @@ namespace aspnetcorebackend.Contracts
 {
     public interface IUserRepository
     {
-        User Authenticate(LoginModel model);
+        User Authenticate(string email, string password);
         IEnumerable<User> GetAll();
         User GetById(Guid id);
         Task<User> CreateAsync(User user, string password);

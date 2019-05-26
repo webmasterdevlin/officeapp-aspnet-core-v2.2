@@ -44,8 +44,8 @@ namespace aspnetcorebackend.Controllers
 
             if (model == null)
                 return BadRequest("Invalid client request");
-
-            User user = _repo.Authenticate(model);
+            
+            User user = _repo.Authenticate(model.Email, model.Password);
             if (user == null)
                 return Unauthorized();
             

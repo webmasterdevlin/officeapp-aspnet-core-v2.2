@@ -11,10 +11,12 @@ namespace aspnetcorebackend.Models.Entities
         [MaxLength(55)]
         [Required(ErrorMessage = "An email is required")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "A password is required")]
-        [MinLength(6)]
-        [MaxLength(12)]
-        public string Password { get; set; }
+        
+//        [Required(ErrorMessage = "A password is required")]
+//        [MinLength(6)]
+//        [MaxLength(12)]
+//        public string Password { get; set; }
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public byte[] PasswordHash { get; set; }

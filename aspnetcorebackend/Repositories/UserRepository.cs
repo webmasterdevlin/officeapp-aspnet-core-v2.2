@@ -19,20 +19,22 @@ namespace aspnetcorebackend.Repositories
             _context = context;
         }
 
-        public User Authenticate(LoginModel model)
+        public User Authenticate(string email, string password)
         {
-            if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password)) return null;
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password)) return null;
 
             var userEntity = _context.Users.SingleOrDefault(c =>
-                (c.Email == model.Email) && c.Password == model.Password);
+                c.Email == email);
 
             // check if username exists
             if (userEntity == null) return null;
 
             // check if password is correct
-            return !VerifyPasswordHash(model.Password, userEntity.PasswordHash, userEntity.PasswordSalt) ? null : userEntity;
+            if (!VerifyPasswordHash(password, userEntity.PasswordHash, userEntity.PasswordSalt))
+                return null;
 
             // authentication successful
+            return userEntity;
         }
 
         public IEnumerable<User> GetAll()
@@ -75,7 +77,8 @@ namespace aspnetcorebackend.Repositories
             if (user.Email != userEntity.Email)
             {
                 // username has changed so check if the new username is already taken
-                if (_context.Users.Any(u => u.Email == user.Email)) throw new AppException("Username " + user.Email + " is already taken");
+                if (_context.Users.Any(u => u.Email == user.Email))
+                    throw new AppException("Username " + user.Email + " is already taken");
             }
 
             // update User properties here
@@ -104,6 +107,40 @@ namespace aspnetcorebackend.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task Update(User userParam, string password = null)
+        {
+            var user = _context.Users.Find(userParam.Id);
+
+            if (user == null)
+                throw new AppException("User not found");
+
+            if (userParam.Email != user.Email)
+            {
+                // username has changed so check if the new username is already taken
+                if (_context.Users.Any(x => x.Email == userParam.Email))
+                    throw new AppException("Username " + userParam.Email + " is already taken");
+            }
+
+            // update user properties
+            user.FirstName = userParam.FirstName;
+            user.LastName = userParam.LastName;
+            user.Email = userParam.Email;
+
+            // update password if it was entered
+            if (!string.IsNullOrWhiteSpace(password))
+            {
+                byte[] passwordHash, passwordSalt;
+                CreatePasswordHash(password, out passwordHash, out passwordSalt);
+
+                user.PasswordHash = passwordHash;
+                user.PasswordSalt = passwordSalt;
+            }
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
+
         // private helper methods
 
         private static void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
@@ -123,11 +160,15 @@ namespace aspnetcorebackend.Repositories
         {
             if (password == null) throw new ArgumentNullException(nameof(password));
 
-            if (string.IsNullOrWhiteSpace(password)) throw new ArgumentException("Value cannot be empty or whitespace only string.", nameof(password));
+            if (string.IsNullOrWhiteSpace(password))
+                throw new ArgumentException("Value cannot be empty or whitespace only string.", nameof(password));
 
-            if (storedHash.Length != 64) throw new ArgumentException("Invalid length of password hash (64 bytes expected).", nameof(storedHash));
+            if (storedHash.Length != 64)
+                throw new ArgumentException("Invalid length of password hash (64 bytes expected).", nameof(storedHash));
 
-            if (storedSalt.Length != 128) throw new ArgumentException("Invalid length of password salt (128 bytes expected).", nameof(storedSalt));
+            if (storedSalt.Length != 128)
+                throw new ArgumentException("Invalid length of password salt (128 bytes expected).",
+                    nameof(storedSalt));
 
             using (var hmac = new System.Security.Cryptography.HMACSHA512(storedSalt))
             {
@@ -137,7 +178,5 @@ namespace aspnetcorebackend.Repositories
 
             return true;
         }
-
-
     }
 }

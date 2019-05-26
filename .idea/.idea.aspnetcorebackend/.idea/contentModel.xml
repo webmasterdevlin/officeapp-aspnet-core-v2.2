@@ -35,6 +35,12 @@
             <e p="log-20190519.txt" t="Include" />
             <e p="log-20190520.json" t="Include" />
             <e p="log-20190520.txt" t="Include" />
+            <e p="log-20190521.json" t="Include" />
+            <e p="log-20190521.txt" t="Include" />
+            <e p="log-20190522.json" t="Include" />
+            <e p="log-20190522.txt" t="Include" />
+            <e p="log-20190526.json" t="Include" />
+            <e p="log-20190526.txt" t="Include" />
             <e p="log-datehere.json" t="Include" />
             <e p="log-datehere.txt" t="Include" />
           </e>
@@ -75,5 +81,6 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_aspnetcorebackend.-1640345975.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>
