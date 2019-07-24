@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace aspnetcorebackend.Controllers
 {
-    [Produces("application/json")]
     [Route("users")]
+    [Produces("application/json")]
     public class UsersController : Controller
     {
         private readonly IUserRepository _repo;

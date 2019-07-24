@@ -30,11 +30,8 @@ namespace aspnetcorebackend.Repositories
             if (userEntity == null) return null;
 
             // check if password is correct
-            if (!VerifyPasswordHash(password, userEntity.PasswordHash, userEntity.PasswordSalt))
-                return null;
-
             // authentication successful
-            return userEntity;
+            return !VerifyPasswordHash(password, userEntity.PasswordHash, userEntity.PasswordSalt) ? null : userEntity;
         }
 
         public IEnumerable<User> GetAll()
