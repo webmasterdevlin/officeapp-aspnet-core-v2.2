@@ -35,7 +35,7 @@ namespace aspnetcorebackend.Controllers
             _appSettings = appSettings.Value;
         }
 
-        // GET api/values
+        // POST authentication
         [HttpPost]
         public IActionResult Login([FromBody] LoginModel model)
         {
